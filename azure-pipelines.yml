@@ -28,5 +28,5 @@ steps:
   inputs:
     azureSubscription: 'Azure subscription 1(2cf64833-1e9f-4e52-ab37-4e7ea0e77717)'
     appType: 'webAppLinux'
-    appName: 'hellodotnetcore'
+    appName: 'sphillips-demo'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
