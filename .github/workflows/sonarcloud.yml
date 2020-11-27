@@ -20,6 +20,14 @@ jobs:
           # Version of Visual Studio to search; defaults to latest if not specified
           # vs-version: # optional
           
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.301
+        
+      - name: Install dependencies
+        run: dotnet restore
+
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
