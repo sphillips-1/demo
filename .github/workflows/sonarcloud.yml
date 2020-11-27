@@ -23,7 +23,7 @@ jobs:
         run: dotnet restore
 
       - name: Build with sonarscanner
-        run: dotnet build --configuration Release --no-restore ../hellodotnetcore.sln
+        run: dotnet build --configuration Release --no-restore ../hellodotnetcore.csproj
 
       - name: Sonarscanner end 
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
