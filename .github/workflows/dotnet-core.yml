@@ -23,5 +23,12 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-
+    - name: Publish
+      run: dotnet publish -c Release -o hellodotnetcore
+    - name: 'Deploy'
+      uses: azure/webapps-deploy@v1
+      with: 
+        app-name: sphillips-demo # Replace with your app name
+        publish-profile: $ # Define secret variable in repository settings as per action documentation
+        package: './hellodotnetcore' 
 
