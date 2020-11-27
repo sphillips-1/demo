@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sean\\Desktop\\hellodotnetcore\\hellodotnetcore.csproj",
+      "projectUniqueName": "C:\\Users\\Sean\\Desktop\\Repos\\demo\\hellodotnetcore.csproj",
       "projectName": "hellodotnetcore",
-      "projectPath": "C:\\Users\\Sean\\Desktop\\hellodotnetcore\\hellodotnetcore.csproj",
+      "projectPath": "C:\\Users\\Sean\\Desktop\\Repos\\demo\\hellodotnetcore.csproj",
       "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sean\\Desktop\\hellodotnetcore\\obj\\",
+      "outputPath": "C:\\Users\\Sean\\Desktop\\Repos\\demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -61,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
